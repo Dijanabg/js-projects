@@ -101,7 +101,7 @@
 // Sum up the instances of each of these
       const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
   
-      const trans = data.reduce(function(obj, item) {
+      const trans = data.reduce(function(obj, item){
         // console.log(item)
         // return obj
         if (!obj[item]) {
